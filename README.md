@@ -8,7 +8,7 @@ In this notebook, different models are used and compared in solving the problem 
 
 The evaluation results for the CNN and LSTM models are still in process as they are taking quite some time and I wasn't able to set up a suitable GPU to train these yet. Results will be updated when done.
 
-* final2.ipynb - Jupyter Notebook with all models
+* final_project2.ipynb - Jupyter Notebook with all models
 * extra_cleaning.ipynb - Some extra/experimental data cleaning/wrangling for different uses.
 * cnn_lstm_.py - CNN and LSTM code
 * logistic_doc2vec.py - logistic regression + doc2vec code
