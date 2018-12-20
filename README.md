@@ -21,3 +21,6 @@ The original Consumer Complaints File can be found in Kaggle here: https://www.k
 The size exceeds 25mb so it cannot be uploaded here. However, two 'cleaned' versions of the dataset are available in the repository as zip files (and should probably be unzipped if the Jupyter notebook is to be run).
 
 UPDATES MAY COME.
+
+Update: due to my computer heating up, there might not be final results on the LSTM soon, but based on the batch number and accuracy compared to the respective ones in the CNN model, the LSTM ones' accuracy seem to be lower. This may have been the result of mishandling pre-trained word embeddings (not being able to integrate them well with the LSTM) or mismatch.
+I have been trying to run this on hpc prince but there seem to be some problems with load modules.
