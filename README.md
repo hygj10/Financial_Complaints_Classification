@@ -8,7 +8,14 @@ In this notebook, different models are used and compared in solving the problem 
 
 The evaluation results for the CNN and LSTM models are still in process as they are taking quite some time and I wasn't able to set up a suitable GPU to train these yet. Results will be updated when done.
 
-WARNING: The CNN model is partially trained (around 70% accuracy) but displaying the accuracy of each batch ended up printing an extremely long text. At the end of the CNN model there is supposed to be a graph showing the accuracies over time but as the model has not completed its training yet the graph is not displayed.
+* final2.ipynb - Jupyter Notebook with all models
+* extra_cleaning.ipynb - Some extra/experimental data cleaning/wrangling for different uses.
+* cnn_lstm_.py - CNN and LSTM code
+* logistic_doc2vec.py - logistic regression + doc2vec code
+* consumer_complaints.csv - original dataset of consumer complaints
+* complaints_cleaned_label.csv - cleaned dataset labelled with numbers for each product type
+
+WARNING: The CNN model and the LSTM model displays the accuracy of each batch, printing an extremely long text. 
 
 The original Consumer Complaints File can be found in Kaggle here: https://www.kaggle.com/cfpb/us-consumer-finance-complaints
 The size exceeds 25mb so it cannot be uploaded here. However, two 'cleaned' versions of the dataset are available in the repository as zip files (and should probably unzipped if the Jupyter notebook is to be run).
