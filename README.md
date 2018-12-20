@@ -12,12 +12,12 @@ The evaluation results for the CNN and LSTM models are still in process as they 
 * extra_cleaning.ipynb - Some extra/experimental data cleaning/wrangling for different uses.
 * cnn_lstm_.py - CNN and LSTM code
 * logistic_doc2vec.py - logistic regression + doc2vec code
-* consumer_complaints.csv - original dataset of consumer complaints
+* complaints_cleaned.csv - cleaned dataset of consumer complaints
 * complaints_cleaned_label.csv - cleaned dataset labelled with numbers for each product type
 
 WARNING: The CNN model and the LSTM model displays the accuracy of each batch, printing an extremely long text. 
 
 The original Consumer Complaints File can be found in Kaggle here: https://www.kaggle.com/cfpb/us-consumer-finance-complaints
-The size exceeds 25mb so it cannot be uploaded here. However, two 'cleaned' versions of the dataset are available in the repository as zip files (and should probably unzipped if the Jupyter notebook is to be run).
+The size exceeds 25mb so it cannot be uploaded here. However, two 'cleaned' versions of the dataset are available in the repository as zip files (and should probably be unzipped if the Jupyter notebook is to be run).
 
-UPDATES TO COME SOON.
+UPDATES MAY COME.
